@@ -10,19 +10,19 @@ Threads are only available in API v9 and above. Bots that do not update to API v
 
 The list of gateway events that may be dropped includes, but is not limited to:
 
-- MESSAGE_CREATE
-- MESSAGE_DELETE
-- MESSAGE_DELETE_BULK
-- MESSAGE_REACTION_ADD
-- MESSAGE_REACTION_REMOVE
-- MESSAGE_REACTION_REMOVE_ALL
-- MESSAGE_REACTION_REMOVE_EMOJI
-- MESSAGE_UPDATE
-- THREAD_CREATE
-- THREAD_UPDATE
-- THREAD_DELETE
-- THREAD_MEMBER_UPDATE
-- THREAD_MEMBERS_UPDATE
+- [MESSAGE_CREATE](#message-create)
+- [MESSAGE_DELETE](#message-delete)
+- [MESSAGE_DELETE_BULK](#message-delete-bulk)
+- [MESSAGE_REACTION_ADD](#message-reaction-add)
+- [MESSAGE_REACTION_REMOVE](#message-reaction-remove)
+- [MESSAGE_REACTION_REMOVE_ALL](#message-reaction-remove-all)
+- [MESSAGE_REACTION_REMOVE_EMOJI](#message-reaction-remove-emoji)
+- [MESSAGE_UPDATE](#message-update)
+- [THREAD_CREATE](#thread-create)
+- [THREAD_UPDATE](#thread-update)
+- [THREAD_DELETE](#thread-delete)
+- [THREAD_MEMBER_UPDATE](#thread-member-update)
+- [THREAD_MEMBERS_UPDATE](#thread-members-update)
 
 ## Thread Fields
 
